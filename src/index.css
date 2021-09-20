@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&family=Montserrat:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/********* Main div css *********/
+.main {
+  height: 100vh;
+  width: 100%;
+  background: #dedede;
+  display: flex;
+}
+
+/********** User Information css **********/
+.userInfo {
+  font-family: "Montserrat", sans-serif;
+  width: 40%;
+  background: #6358d6;
+  display: grid;
+  place-items: center;
+
+}
+
+.userInfo h3 {
+  padding: 20px 0;
+  text-transform: capitalize;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px #6b6969;
+  margin-left: -12rem;
+}
+
+.userInfo ul {
+  list-style: none;
+  text-transform: capitalize;
+  margin-top: -24rem;
+  margin-left: 6rem;
+  width: 100%;
+}
+
+.userInfo ul li{
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+/********** Sing Up Form css **********/
+.singUpForm {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1.heading {
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  color: #17202A;
+  font-size: 40px;
+  text-shadow: 3px -1px 2px #919191;
+}
+
+.singUpForm form{
+  margin-top: 1rem;
+}
+
+.singUpForm input {
+  font-family: "Josefin Sans", sans-serif ;
+  width: 60%;
+  text-align: center;
+  margin-left: 10rem;
+  margin-bottom: 20px;
+  font-size: 15px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: -1px 4px 20px 0px #cfcece;
+  outline: none;
+}
+
+button.btn {
+  font-family: 'Josefin Sans';
+  font-size: 16px;
+  border: 2px solid #17202A;
+  outline: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background: transparent;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 22rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button.btn:hover {
+  background: #17202A;
+  color: #fff;
+}
